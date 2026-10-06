@@ -62,7 +62,7 @@ a{color:inherit}
 .callbar{display:none}
 
 /* copy */
-.copy{position:absolute;right:var(--gutter);bottom:clamp(96px,14cqh,150px);width:min(44%,640px);display:grid;gap:22px}
+.copy{position:absolute;right:var(--gutter);bottom:clamp(96px,14cqh,150px);width:min(44%,max(640px,min(36cqw,700px)));display:grid;gap:22px}
 .eyebrow{color:var(--amber)}
 h1{margin:0;font-family:var(--display);font-weight:860;font-variation-settings:"wdth" 70;font-size:clamp(56px,6.3cqw,124px);line-height:.84;letter-spacing:-.012em;text-transform:uppercase;text-wrap:balance}
 h1 span{display:block;white-space:nowrap}
