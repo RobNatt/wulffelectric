@@ -62,10 +62,10 @@ a{color:inherit}
 .callbar{display:none}
 
 /* copy */
-.copy{position:absolute;right:var(--gutter);bottom:clamp(96px,14cqh,150px);width:min(44%,max(640px,min(36cqw,700px)));display:grid;gap:22px}
+.copy{position:absolute;right:max(var(--gutter),5.5vw);bottom:clamp(96px,14cqh,150px);width:min(44%,max(640px,min(36cqw,700px)));display:grid;gap:22px}
 .eyebrow{color:var(--amber)}
 h1{margin:0;font-family:var(--display);font-weight:860;font-variation-settings:"wdth" 70;font-size:clamp(56px,6.3cqw,124px);line-height:.84;letter-spacing:-.012em;text-transform:uppercase;text-wrap:balance}
-h1 span{display:block;white-space:nowrap}
+h1 span{display:block;white-space:nowrap;padding-right:.08em}
 h1 .l2{color:var(--bone)}
 .lede{margin:0;max-width:34ch;font-size:clamp(16px,1.25vw,19px);color:rgba(245,244,239,.82)}
 .actions{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center}
